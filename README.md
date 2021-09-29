@@ -1,4 +1,4 @@
-<p align="center"><img width="200px" src="./src/assets/img/bannerBlack.svg"></img></p>
+<p align="center"><img width="200px" src="./src/assets/img/Cardano Workshop/Cardano_REd.png"></img></p>
 
 # Nami Wallet
 
