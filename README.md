@@ -1,8 +1,8 @@
 <p align="center"><img width="200px" src="./src/assets/img/Cardano Workshop/Cardano_REd.png"></img></p>
 
-# Nami Wallet
+# Workshop Wallet
 
-Nami Wallet is a browser based wallet extension to interact with the Cardano blockchain. It's an open-source project and built by [**Berry Pool**](https://pipool.online).
+Workshop Wallet is a fork of Nami Wallet, a browser based wallet extension to interact with the Cardano blockchain. It's an open-source project and built by [**Berry Pool**](https://pipool.online).
 
 ### Injected API
 
