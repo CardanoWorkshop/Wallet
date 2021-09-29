@@ -58,7 +58,7 @@ const App = () => {
       alignItems="center"
       justifyContent="center"
     >
-      <Spinner color="teal" speed="0.5s" />
+      <Spinner color="red" speed="0.5s" />
     </Box>
   ) : (
     <div style={{ overflowX: 'hidden' }}>

@@ -2,7 +2,7 @@ import React from 'react';
 import { POPUP, POPUP_WINDOW } from '../config/config';
 import { Scrollbars } from 'react-custom-scrollbars';
 import './app/components/styles.css';
-import Theme from './theme';
+import Theme from './Cardano Workshop/theme';
 import StoreProvider from './store';
 import { Box } from '@chakra-ui/react';
 

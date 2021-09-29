@@ -16,13 +16,14 @@ import { Box, Spacer, Text, Link } from '@chakra-ui/layout';
 import { useDisclosure } from '@chakra-ui/hooks';
 import { Select } from '@chakra-ui/select';
 
-import BannerWhite from '../../../assets/img/bannerWhite.svg';
-import BannerBlack from '../../../assets/img/bannerBlack.svg';
+// import BannerWhite from '../../../assets/img/bannerWhite.svg';
+// import BannerBlack from '../../../assets/img/bannerBlack.svg';
+import redCordano from  '../../../assets/img/Cardano Workshop/Cardano_REd.png'
 import TermsOfUse from '../components/termsOfUse';
 import { ViewIcon, WarningTwoIcon } from '@chakra-ui/icons';
 
 const Welcome = () => {
-  const Banner = useColorModeValue(BannerBlack, BannerWhite);
+  const Banner = useColorModeValue(redCordano, redCordano);
   const refWallet = React.useRef();
   const refImport = React.useRef();
 
@@ -45,10 +46,10 @@ const Welcome = () => {
         {/* Footer */}
         <Box position="absolute" bottom="3" fontSize="xs">
           <Link
-            onClick={() => window.open('https://namiwallet.io')}
-            color="GrayText"
+            onClick={() => window.open('https://www.cardanoworkshop.com/')}
+            color="gray.100"
           >
-            namiwallet.io
+            Cardano Workshop
           </Link>
         </Box>
         <Box h="12" />
@@ -56,7 +57,7 @@ const Welcome = () => {
           Welcome
         </Text>
         <Text
-          color="grey"
+          color="grey.100"
           fontWeight="light"
           fontSize="sm"
           textAlign="center"
@@ -65,14 +66,15 @@ const Welcome = () => {
           Let's get started with creating a wallet.
         </Text>
         <Box h="8" />
-        <Backpack size={120} mood="blissful" color="#61DDBC" />
+        
         <Box height="8" />
         <Button
           display="inline-flex"
           onClick={() => {
             refWallet.current.openModal();
           }}
-          colorScheme="teal"
+          color="grey.100"
+          colorScheme="buttonBrand.900"
           size="md"
         >
           New Wallet
@@ -82,7 +84,8 @@ const Welcome = () => {
           onClick={() => {
             refImport.current.openModal();
           }}
-          colorScheme="orange"
+          color="grey.100"
+          colorScheme="buttonBrand.500"
           size="sm"
         >
           Import
@@ -189,7 +192,7 @@ const ImportModal = React.forwardRef((props, ref) => {
               Nami wallet.{' '}
               <Link
                 textDecoration="underline"
-                onClick={() => window.open('https://namiwallet.io')}
+                onClick={() => window.open('https://www.cardanoworkshop.com/')}
               >
                 More info
               </Link>
